@@ -1,5 +1,5 @@
 import { ZooCard } from "./ZooCard"
-
+import Users from './Users/index.jsx'
 function App() {
 
 
@@ -9,8 +9,9 @@ function App() {
         <ZooCard 
         animalName="Jaguar" 
         animalImg="https://wallpaperaccess.com/full/244116.jpg"
-        animalSound="/Jaguar Snap and Growl - QuickSounds.com.mp3"
+        animalSound="/src/Jaguar Snap and Growl - QuickSounds.com.mp3"
          />
+          <Users/>
       </div>
     </>
   )

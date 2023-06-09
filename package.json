@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^1.4.0",
     "react-audio-player": "^0.17.0"
   }
 }
